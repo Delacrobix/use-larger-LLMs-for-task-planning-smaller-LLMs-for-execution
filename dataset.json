@@ -1,0 +1,92 @@
+[
+  {
+    "title": "How to Reset Your Password",
+    "category": "password_reset",
+    "content": "To reset your password: 1) Go to the login page and click 'Forgot Password'. 2) Enter your registered email address. 3) Check your inbox for a reset link (valid for 24 hours). 4) Click the link and create a new password (minimum 8 characters, must include a number and special character). If you don't receive the email, check your spam folder or contact support.",
+    "tags": ["password", "login", "reset", "account access"]
+  },
+  {
+    "title": "Account Locked After Failed Login Attempts",
+    "category": "password_reset",
+    "content": "Your account is automatically locked after 5 consecutive failed login attempts. The lock lasts 30 minutes. After 30 minutes, try logging in again with the correct credentials. If you've forgotten your password, use the 'Forgot Password' feature. For immediate unlock, contact support with your account email and a valid photo ID.",
+    "tags": ["locked", "login", "failed attempts", "security"]
+  },
+  {
+    "title": "How to Track Your Order",
+    "category": "order_status",
+    "content": "To track your order: 1) Log in to your account. 2) Go to 'My Orders'. 3) Click the order number to see tracking details. You'll also receive tracking emails at each stage: Order Confirmed, Shipped, Out for Delivery, and Delivered. Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days.",
+    "tags": ["order", "tracking", "shipping", "delivery"]
+  },
+  {
+    "title": "Order Delayed or Not Received",
+    "category": "order_status",
+    "content": "If your order is delayed: 1) Check the tracking page for updates. 2) Standard orders may take up to 7 business days during peak periods. 3) If the tracking shows 'Delivered' but you haven't received it, check with neighbors or your building's front desk. 4) If the package is lost, file a claim within 14 days of the expected delivery date. We will either reship the order or issue a full refund.",
+    "tags": ["delayed", "lost", "missing", "delivery", "refund"]
+  },
+  {
+    "title": "Understanding Your Subscription Billing",
+    "category": "billing_issue",
+    "content": "Subscriptions are billed at the start of each billing cycle (monthly or annually). Your billing date is the same day you originally subscribed. You can view your billing history under Account > Billing. Invoices are sent to your registered email. If you see a pending charge, it may take 3-5 business days to fully process.",
+    "tags": ["subscription", "billing", "invoice", "payment"]
+  },
+  {
+    "title": "Duplicate Charges and Refund Policy",
+    "category": "billing_issue",
+    "content": "If you see duplicate charges: 1) Check if one is a pending authorization (these usually drop off within 3-5 business days). 2) If both charges are completed, contact support with your account email, the charge amounts, and dates. We will investigate within 24 hours. Confirmed duplicate charges are refunded within 5-7 business days. Refunds appear on the original payment method.",
+    "tags": ["duplicate", "charge", "refund", "double charge", "payment"]
+  },
+  {
+    "title": "Subscription Plan Changes and Downgrades",
+    "category": "billing_issue",
+    "content": "Plan changes take effect at the start of your next billing cycle. If your account was unexpectedly downgraded: 1) Check if your payment method on file is still valid. 2) A failed renewal payment triggers an automatic downgrade after 3 retry attempts over 7 days. 3) To restore your plan, update your payment method and resubscribe. Previous plan features are restored immediately upon successful payment.",
+    "tags": ["plan", "downgrade", "upgrade", "subscription", "payment method"]
+  },
+  {
+    "title": "API Rate Limits and Error Codes",
+    "category": "technical_issue",
+    "content": "API rate limits: Free tier: 100 requests/minute. Basic: 500 requests/minute. Premium: 2000 requests/minute. When you exceed the limit, the API returns HTTP 429. Common error codes: 400 (Bad Request - check your payload), 401 (Unauthorized - check your API key), 403 (Forbidden - check your plan permissions), 500 (Server Error - retry after 30 seconds, report if persistent).",
+    "tags": ["API", "rate limit", "error", "429", "500", "developer"]
+  },
+  {
+    "title": "API v2 Migration Guide",
+    "category": "technical_issue",
+    "content": "API v2 introduces breaking changes from v1: 1) Authentication now uses Bearer tokens instead of query parameters. 2) Response format changed to JSON:API specification. 3) The /analytics endpoint now requires a date range parameter. 4) Pagination uses cursor-based instead of offset-based. v1 endpoints remain available until December 2026. If you experience 500 errors on v2, ensure your requests include the required 'date_range' parameter.",
+    "tags": ["API", "v2", "migration", "breaking changes", "analytics"]
+  },
+  {
+    "title": "Troubleshooting Intermittent API Errors",
+    "category": "technical_issue",
+    "content": "For intermittent 500 errors: 1) Check our status page at status.example.com for known incidents. 2) Implement exponential backoff retry logic. 3) Log the full response body - it contains a request_id for our team to trace. 4) If errors persist for more than 1 hour, open a priority support ticket with: your API key prefix (first 8 chars), affected endpoints, error frequency, and sample request_ids.",
+    "tags": ["500 error", "intermittent", "troubleshooting", "API", "server error"]
+  },
+  {
+    "title": "How to Cancel Your Subscription",
+    "category": "general_inquiry",
+    "content": "To cancel your subscription: 1) Go to Account > Subscription. 2) Click 'Cancel Subscription'. 3) Select a cancellation reason. 4) Confirm cancellation. You retain access until the end of your current billing period. No partial refunds are issued for remaining days. You can reactivate anytime and your data is retained for 90 days after cancellation.",
+    "tags": ["cancel", "subscription", "account"]
+  },
+  {
+    "title": "Contacting Support Channels",
+    "category": "general_inquiry",
+    "content": "Support channels: 1) Live Chat (24/7) - available on our website for instant help. 2) Email (support@example.com) - response within 24 hours. 3) Phone (1-800-EXAMPLE) - available Mon-Fri 9am-6pm EST. 4) Community Forum - for peer-to-peer help. Premium customers get priority queue and a dedicated account manager. For billing disputes, always contact us within 30 days of the charge.",
+    "tags": ["contact", "support", "help", "phone", "email", "chat"]
+  },
+  {
+    "title": "Two-Factor Authentication Setup",
+    "category": "password_reset",
+    "content": "To enable 2FA: 1) Go to Account > Security. 2) Click 'Enable Two-Factor Authentication'. 3) Scan the QR code with your authenticator app (Google Authenticator, Authy). 4) Enter the 6-digit code to confirm. Save your backup codes in a secure location. If you lose access to your authenticator, use a backup code or contact support with your photo ID for manual verification.",
+    "tags": ["2FA", "security", "authenticator", "login", "verification"]
+  },
+  {
+    "title": "Data Export and Privacy",
+    "category": "general_inquiry",
+    "content": "To export your data: 1) Go to Account > Privacy. 2) Click 'Request Data Export'. 3) You'll receive a download link via email within 48 hours. The export includes your profile, order history, and usage data in JSON format. For data deletion requests (GDPR/CCPA), submit a request through the same page. Deletion is permanent and completed within 30 days.",
+    "tags": ["data", "export", "privacy", "GDPR", "deletion"]
+  },
+  {
+    "title": "Payment Method Update",
+    "category": "billing_issue",
+    "content": "To update your payment method: 1) Go to Account > Billing > Payment Methods. 2) Click 'Add New' or 'Edit' on an existing method. 3) Enter your new card details. 4) Set as default if needed. We accept Visa, Mastercard, Amex, and PayPal. If your card was declined, verify: correct card number, valid expiration date, sufficient funds, and that international transactions are enabled with your bank.",
+    "tags": ["payment", "credit card", "update", "declined", "billing"]
+  }
+]
